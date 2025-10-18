@@ -3,8 +3,15 @@
 /* Set custom variables here */
 
 
+:root{
+  --bs-primary: #2e483a;
+  --bs-light: #f6f3ed; 
+  --bs-primary-rgb: 46, 72, 58;
+}
 
-
+.navbar{
+  background-color: var(--bs-primary);
+}
 
 .navbar-brand {
   color: #F6F3ED;
@@ -12,6 +19,20 @@
 
 body {
   font-family: "Sarala", sans-serif;
+  background-color: #F6F3ED;
+}
+
+
+
+.btn-primary{
+  background-color: var(--bs-primary);
+  border: 0;
+}
+
+#hero button:hover{
+  color: #2e483a;
+  background-color: #F6F3ED;
+  border: 1px solid #2e483a;
 }
 
 h1, h2, h3 {
@@ -29,6 +50,10 @@ h1, h2, h3 {
 
 #hero .d-flex {
   height: 800px;
+}
+
+ul{
+  list-style: none;
 }
 
 #cta {
