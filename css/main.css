@@ -6,6 +6,7 @@
 :root{
   --bs-primary: #2e483a;
   --bs-light: #f6f3ed; 
+  --light-color: #f6f3ed;
   --bs-primary-rgb: 46, 72, 58;
 }
 
@@ -69,6 +70,12 @@ ul{
 
 section:not(#hero):not(#cta){
   padding: 60px 0;
+}
+
+button:hover{
+  color: #2e483a;
+  background-color: #F6F3ED;
+  border: 1px solid #2e483a;
 }
 
 @media(min-width: 993px){
